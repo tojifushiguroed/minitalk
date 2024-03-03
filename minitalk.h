@@ -1,0 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   minitalk.h                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: egolboyu <egolboyu@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/02 14:29:06 by egolboyu          #+#    #+#             */
+/*   Updated: 2024/03/03 18:05:09 by egolboyu         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef MINITALK_H
+# define MINITALK_H
+
+# include <unistd.h>
+# include <signal.h>
+# include <stdlib.h>
+# include <string.h>
+# include <stdarg.h>
+# include <stdio.h>
+
+int	ft_atoi(char *str);
+int	ft_strlen(char *str);
+int	ft_printf(const char *str, ...);
+
+#endif
